@@ -1,0 +1,36 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+venv/
+ENV/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# VS Code / Cursor
+.vscode/
+.history/
+.cursor/
+
+# Large data/outputs (tweak as needed)
+data/
+datasets/
+outputs/
+figures/
+*.h5
+*.hdf5
+*.npz
+*.pt
+*.pth
+*.ckpt
